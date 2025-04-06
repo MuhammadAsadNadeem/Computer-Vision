@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['cheese', 'masala', 'paprika', 'salted', 'yogurt']
+
+roboflow:
+  workspace: lays-t9peu
+  project: lays-qotis
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lays-t9peu/lays-qotis/dataset/5
